@@ -104,11 +104,11 @@
 					<div class="card article col-lg-4 col-md-6">
 						<div class="card-container">  
 							<div class="card-img">
-								<img src="http://localhost/elogebenao/wp-content/uploads/2019/09/img2-660x650.jpg" class="attachment-post-thumb size-post-thumb wp-post-image" alt="" width="660" height="650">      
+								<img src="img/img4.jpg" class="attachment-post-thumb size-post-thumb wp-post-image" alt="" width="660" height="650">      
 							</div>
 							<div class="card-body">
 								<div class="card-text">
-									<h5>La  valeur d’un homme</h5>
+									<h5>Le don fait sollicite quelque chose de meilleur</h5>
 									<p>
 										La  valeur d’un homme ne se mesure pas à son argent, son statut ou ses  possessions. La valeur d’un homme réside...
 									</p>
@@ -124,11 +124,11 @@
 					<div class="card article col-lg-4 col-md-6">
 						<div class="card-container">  
 							<div class="card-img">
-								<img src="http://localhost/elogebenao/wp-content/uploads/2019/09/img5-660x650.jpg" class="attachment-post-thumb size-post-thumb wp-post-image" alt="" width="660" height="650">      
+								<img src="img/img2.jpg" class="attachment-post-thumb size-post-thumb wp-post-image" alt="" width="660" height="650">      
 							</div>
 							<div class="card-body">
 								<div class="card-text">
-									<h5>Les jeunes  aiment le luxe</h5>
+									<h5>Celui qui refusa l'âne en don, fut obligé après de l'acheter</h5>
 									<p>
 										Nos jeunes
 										aiment le luxe, ont de mauvaises manières, se moquent de l’autorité et 
@@ -146,12 +146,12 @@
 					<div class="card article col-lg-4 col-md-6">
 						<div class="card-container">  
 							<div class="card-img">
-								<img src="http://localhost/elogebenao/wp-content/uploads/2019/09/img7-660x565.jpg" class="attachment-post-thumb size-post-thumb wp-post-image" alt="" width="660" height="565">      </div>
+								<img src="img/img3.jpg" class="attachment-post-thumb size-post-thumb wp-post-image" alt="" width="660" height="565">      </div>
 								<div class="card-body">
 									<div class="card-text">
-										<h5>La reussite et la patience</h5>
+										<h5> Don d'ennemi, c'est male encontre</h5>
 										<p>
-											La réussite est liée à la patience mais elle dépend également de beaucoup de bonne volonté. smiling african...
+											La réussite est liée à la patience mais elle dépend également de beaucoup de bonne volonté. smiling african smiling african...
 										</p>
 									</div>
 									<center>

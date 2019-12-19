@@ -5,6 +5,9 @@ body{
 p,a{
   font-family: 'Montserrat', sans-serif;
 }
+a{
+  color: #203161;
+}
 h1,h2,h3,h4,h5{
   font-family: 'Monad', sans-serif;
 }
@@ -78,7 +81,7 @@ header .header-content .logo img{
   transition: opacity 300ms ease-out;
 }
 .carousel-caption{
-  bottom: 200px;
+  bottom: 180px;
 }
 
 .carousel-btn-container {
@@ -130,14 +133,14 @@ header .header-content .logo img{
 .block-article .article {
   border-radius: 0px;
   border: 0px;
+  margin-bottom: 25px;
 }
 .card-container {
   background:#fff;
   transition: margin-top 0.5s;
 }
 .card-container:hover {
-  box-shadow: 0px 4px 26px 3px #d5ddea;
-  margin-top: -15px;
+  margin-top: -10px;
 }
 .card .card-img {
   height: 220px;
@@ -148,7 +151,19 @@ header .header-content .logo img{
   max-width: 100%;
   height: auto;
 }
-.block-article .card-body{
+.block-article .card-body, .block-article .card-img{
   background-color: #F2F2F2;
   text-align: center;
+}
+.block-article .card-body h5 {
+  color: #203161;
+}
+.btn-article a {
+  text-decoration: none;
+  font-size: 1.1em;
+  border-bottom: 2px solid #203161 ;
+  transition: color 0.6s;
+}
+.btn-article a:hover {
+  color: #206131;
 }
