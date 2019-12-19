@@ -5,10 +5,18 @@ body{
 p,a{
   font-family: 'Montserrat', sans-serif;
 }
+h1,h2,h3,h4,h5{
+  font-family: 'Monad', sans-serif;
+}
 .container-fluid{
   margin: 0;
   padding: 0;
 }
+/*
+============================================================================================
+1. header
+============================================================================================
+*/
 header{
   background-color: #303044;
 }
@@ -36,7 +44,11 @@ header .header-content .logo img{
 .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
   color: #32439B;
 }
-
+/*
+============================================================================================
+2. slider
+============================================================================================
+*/
 .carousel-section .carousel-item{
   height: 30vh;
   min-height: 450px;
@@ -49,5 +61,94 @@ header .header-content .logo img{
 }
 /*carousel image*/
 .d-block.w-100 {
-  opacity: 0.7;
+  opacity: 0.6;
+}
+
+.carousel-control-prev {
+  margin-left: 15px;
+}
+.carousel-control-next {
+  margin-right: 15px;
+}
+.carousel-control-prev, .carousel-control-next {
+  height: 35px;
+  width: 3%;
+  border: 1px solid #fff;
+  margin-top: 15%;
+  transition: opacity 300ms ease-out;
+}
+.carousel-caption{
+  bottom: 200px;
+}
+
+.carousel-btn-container {
+  display: block;
+  margin-top: 30px;
+  width: auto;
+}
+
+.carousel-btn-container a {
+  text-decoration: none;
+  color: #fff;
+}
+.btn-carousel {
+  text-transform: uppercase;
+  padding: 12px;
+  font-size: 0.9em;
+  border: 2px solid #fff;
+  transition: background-color 0.6s;
+  font-weight: 500;
+  margin: 5px;
+}
+.btn-carousel:hover {
+  background-color: #206131;
+  border: none;
+  padding: 14px;
+}
+/*
+============================================================================================
+3. section Evenement
+============================================================================================
+*/
+.section-evenement {
+  /*background-color: #F2F2F2;*/
+  overflow: hidden;
+}
+.section-evenement-title {
+  padding: 40px;
+  color: #878383;
+  text-align: center;
+  padding-bottom: 30px;
+}
+.block-article {
+  color:#272727;
+  margin-bottom: 30px;
+  overflow: hidden;
+  border-radius: 0px;
+  padding: 20px 85px 20px 85px;
+}
+.block-article .article {
+  border-radius: 0px;
+  border: 0px;
+}
+.card-container {
+  background:#fff;
+  transition: margin-top 0.5s;
+}
+.card-container:hover {
+  box-shadow: 0px 4px 26px 3px #d5ddea;
+  margin-top: -15px;
+}
+.card .card-img {
+  height: 220px;
+  overflow: hidden;
+}
+.block-article .article img {
+  transition: transform 0.5s;
+  max-width: 100%;
+  height: auto;
+}
+.block-article .card-body{
+  background-color: #F2F2F2;
+  text-align: center;
 }
