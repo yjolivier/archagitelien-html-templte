@@ -196,6 +196,63 @@ header .header-content .logo img{
 
 /*
 ============================================================================================
-5. section sponsor
+5. section form
 ============================================================================================
 */
+.form-section{
+  height: 450px;
+  width: 100vw;
+  background-color: #206131;
+}
+/*
+============================================================================================
+6. section partner
+============================================================================================
+*/
+.partner-section{
+  margin: 30px;
+}
+.partner-section img{
+  max-width: 85px;
+  min-height: 85px;
+  border: 2px solid #206131;
+  transition: transform 0.5s;
+}
+.partner-section img:hover{
+  opacity: 0.8;
+  transform: scale(1.1);
+  background-color: #206131;
+}
+.partner-img{
+  display: flex;
+  justify-content: center;
+}
+.partner-section-title {
+  padding: 8px 0px 20px 0px;
+  color: #878383;
+  text-align: center;
+  padding-bottom: 30px;
+}
+/*
+============================================================================================
+6. section partner
+============================================================================================
+*/
+.galerie{
+  margin: 30px;
+}
+.galerie img{
+  max-width: 150px;
+  height: auto;
+  transition: transform 0.5s;
+}
+.galerie-section-title {
+  padding: 8px 0px 20px 0px;
+  color: #878383;
+  text-align: center;
+  padding-bottom: 30px;
+}
+.galerie-img{
+  display: flex;
+  justify-content: center;
+}
