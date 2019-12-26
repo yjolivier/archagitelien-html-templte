@@ -1,6 +1,47 @@
-<!-- Script -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+			<footer class="row">
+				<div class="col-lg-3 footer-logo">
+					<div class="footer-logo-card">
+						<a href="#"><img src="img/logo.png" alt="..." class="rounded-circle"></a>
+					</div>
+				</div>
+				<div class="col-lg-6 footer-text">
+					<p>
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque nesciunt vel eligendi alias at odit provident fuga, non perspiciatis in debitis accusantium suscipit facere, reprehenderit nulla sit incidunt maxime dolorem.Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque nesciunt vel eligendi alias at odit provident fuga, non perspiciatis in debitis accusantium suscipit facere, reprehenderit nulla sit incidunt maxime dolorem.
+					</p>
+				</div>
+				<div class="col-lg-3 footer-menu">
+					<ul class="navbar-nav ml-auto footer-content">
+						<li class="nav-item active">
+							<a class="nav-link" href="#">Accueil <span class="sr-only">(current)</span></a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">historique</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">structure</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">action</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">galerie</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">blog</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">contact</a>
+						</li>
+					</ul>
+				</div>
+				<div class="signature-container col-lg-12">
+					<center>Design by <a href="https://github.com/yjolivier/">Olivier Yao</a></center>
+				</div>
+			</footer>
+		</div>
+		<!-- Script -->
+		<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+	</body>
+</html>
