@@ -341,14 +341,90 @@ footer .signature-container {
   height: 48px;
   color: #9b9b9b;
 }
+footer .footer-social .footer-social-content{
+  padding: 25px 0px;
+  font-family: "FontAwesome";
+  font-size: 1.6em;
+  text-align: center;
+}
+footer .footer-social .footer-social-content a{
+  text-decoration: none;
+  color: #fff;
+  transition: color 0.5s;
+}
+footer .footer-social .footer-social-content a:hover{
+  color: #203161;
+}
 footer .signature-container a {
   color: #4d648d;
 }
-
 /*
-================================================================================================
+===========================================================================================
+8. Single style
+===========================================================================================
+*/
+.page-section{
+  padding: 30px 30px 30px 65px;
+}
+.page-title{
+  color: #878383;
+  padding-bottom: 20px;
+  text-transform: uppercase;
+}
+.page-content .card-body{
+  padding: 0px 10px 0px 20px;
+}
+.page-content .card-body h4{
+  color: #203161;
+}
+.page-section .page-content .card-img{
+  overflow: hidden;
+  padding: 0px;
+}
+.page-section .page-content .card-img img{
+  transition: transform 0.5s;
+}
+.page-section .page-content .card-img img:hover{
+  transform: scale(1.1);
+}
+/*
+===========================================================================================
+9. Sidebar style
+===========================================================================================
+*/
+.sidebar-container{
+  overflow: hidden;
+}
+.sidebar-content{
+  border: 1px solid #ecedf1;
+  border-radius: 5px;
+  margin: 10px;
+  padding: 10px;
+  transition: box-shadow 0.5s
+}
+.sidebar-content:hover{
+  box-shadow: 0 30px 50px rgba(0, 0, 0, 0.07);
+}
+.sidebar-content h5{
+  color: #878383;
+}
+.sidebar-content ul li {
+  list-style-type: none;
+  line-height: 2.2rem;
+}
+.sidebar-content ul li a{
+  text-decoration: none;
+  color: #206131;
+  font-weight: 500;
+  transition: color 0.5s;
+}
+.sidebar-content ul li a:hover{
+  color: #203161;
+}
+/*
+===========================================================================================
 Media queries
-================================================================================================
+===========================================================================================
 */
 /*screen resolution <= 1024 */
 @media screen and (max-width: 1024px) {
@@ -379,11 +455,29 @@ Media queries
 }
 /*screen resolution <= 960 */
 @media screen and (max-width: 960px) {
-    /*
+  /*
   * block article
-    */
+  */
   .block-article {
     padding-left: 60px;
+  }
+    /*
+  * Galerie
+  */
+  .galerie-img {
+    height: 140px;
+    margin-bottom: 10px;
+  }
+  /*
+  * Sidebar style
+  */
+  .sidebar-content{
+    margin-left: 0px;
+    padding-left: 0px;
+  }
+  .sidebar-container{
+    margin-left: 0px;
+    padding-left: 0px;
   }
 }
 
@@ -417,7 +511,35 @@ Media queries
   .parallax-card-text h2{
     font-size: 1.7rem;
   }
-
+  /*
+  * Galerie
+  */
+  .galerie-img {
+    height: 100px;
+    margin-bottom: 10px;
+  }
+  .galerie .galerie-img .block-img {
+    background-color: #fff;
+  }
+  .galerie img:hover{
+    transform: inherit;
+    opacity: 1;
+  }
+  .galerie-btn {
+    bottom: 20px;
+    border: none;
+  }
+  .galerie-img:hover > .galerie-btn {
+    bottom: 20px;
+    right: 0;
+  }
+  /*
+  * Single style
+  */
+  .page-content .card-body{
+    padding: 10px 0px 0px 0px;
+  }
+}
 /*screen resolution <= 540 */
 @media screen and (max-width: 540px) {
   .carousel-section .carousel-item {
@@ -450,23 +572,10 @@ Media queries
     padding-right: 20px;
     padding-left: 50px;
   }
-  .galerie-img {
-    height: 100px;
-    margin-bottom: 10px;
-  }
-  .galerie .galerie-img .block-img {
-    background-color: #fff;
-  }
-  .galerie img:hover{
-    transform: inherit;
-    opacity: 1;
-  }
-  .galerie-btn {
-    bottom: 20px;
-    border: none;
-  }
-  .galerie-img:hover > .galerie-btn {
-    bottom: 20px;
-    right: 0;
+  /*
+  * Single style
+  */
+  .page-section{
+    padding: 30px 30px 30px 30px;
   }
 }
