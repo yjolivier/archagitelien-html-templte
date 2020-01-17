@@ -200,9 +200,11 @@ header .header-content .logo img{
 ============================================================================================
 */
 .form-section{
+  padding: 20px 85px 20px 85px;
+}
+.form-container{
+  background-color: #eee;
   height: 450px;
-  width: 100vw;
-  background-color: #206131;
 }
 /*
 ============================================================================================
@@ -236,7 +238,7 @@ header .header-content .logo img{
 }
 /*
 ============================================================================================
-6. section partner
+6. section galerie
 ============================================================================================
 */
 .galerie{
@@ -265,7 +267,7 @@ header .header-content .logo img{
   display: flex;
   justify-content: center;
   padding: 0px 5px 0px 5px;
-  height: 200px;
+  height: 150px;
   overflow: hidden;
   background-size: cover;
   position: relative;
@@ -291,6 +293,20 @@ header .header-content .logo img{
   text-decoration: none;
   color:#fff;
   font-size: 1.1em;
+}
+.owl-nav span {
+  color: green;
+  font-size: 1.5em;
+  width: 20px;
+}
+.owl-theme .owl-nav [class*="owl-"]:hover {
+  background: #fff !important;
+}
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+  background: #203161;
+}
+.owl-theme .owl-dots .owl-dot span {
+  background: #203161;
 }
 /*
 ============================================================================================

@@ -9,8 +9,12 @@
 		<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet"> 
 		<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<!-- Owl carousel css-->
+		<link rel="stylesheet" href="css/owl.carousel.css" type="text/css">
+  	<link rel="stylesheet" href="css/owl.theme.default.css" type="text/css">
 		<!--Scrypt-->
 		<script src="https://kit.fontawesome.com/f0abbeb7fb.js" crossorigin="anonymous"></script>
+
 	</head>
 	<body>
 		<div class="container-fluid">
